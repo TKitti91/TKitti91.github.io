@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "open sans";
+    src: url("open sans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "open light";
+    src: url("open sans/OpenSans-LightItalic.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "open sans";
+    color: grey;
+    background-color: darkgray;
+    background-size: cover;
+}
+h1{
+    color:brown;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color:#28a745;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.content{
+    color: red;
+    margin-bottom: 0px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.box{
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 5px;
+    margin: 2%;
+    box-shadow: 0 0 5px black;
+    background-size: contain;
+    
+}
+
+img{
+    max-width: 30%
+}
+
+th{
+    color: #28a745;
+}
+#teljes{
+    width: 700px;
+    box-shadow: 0 0 5px black;
+    margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.color tbody {
+    background-color: yellow;
+}
+.color tbody tr:nth-child(even) {
+    background-color: violet;
+}
+thead {
+    background-color: none;
+}
+.color tbody td:nth-child(3) {
+    text-align: right;
+}
+
+
